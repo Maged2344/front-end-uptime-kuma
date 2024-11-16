@@ -32,6 +32,6 @@ jobs:
           username: ubuntu
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: | 
-            docker stop uptime-kuma || true
-            docker rm uptime-kuma || true
-            docker run -d --restart=always -p 3001:3001 -v uptime-kuma:/app/data --name uptime-kuma louislam/uptime-kuma:1
+            sudo docker stop uptime-kuma || true
+            sudo docker rm uptime-kuma || true
+            sudo docker run -d --restart=always -p 3001:3001 -v uptime-kuma:/app/data --name uptime-kuma louislam/uptime-kuma:1

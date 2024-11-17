@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/8408e059-6b1e-4e3d-81d9-31f136e05c7a)
+
 # Uptime Kuma Docker Deployment
 
 This repository contains a **GitHub Actions workflow** that automates the deployment of the `uptime-kuma` Docker container. The workflow builds and deploys the container to a server, ensuring it is always up-to-date and running smoothly.
